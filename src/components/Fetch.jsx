@@ -13,9 +13,7 @@ class FetchJsonp extends Component {
     }
 
     getData = () => {
-
         //获取数据
-
         var api = "http://www.phonegap100.com/appapi.php?a=getPortalList&catid=20";
         fetchJsonp(api)
             .then(function (response) {
